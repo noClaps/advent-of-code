@@ -5,6 +5,7 @@ mod p2;
 mod p3;
 mod p4;
 mod p5;
+mod p6;
 
 fn main() {
     let args: Vec<_> = env::args().collect();
@@ -14,6 +15,7 @@ fn main() {
         "3" => p3::p3(),
         "4" => p4::p4(),
         "5" => p5::p5(),
+        "6" => p6::p6(),
         _ => panic!("Invalid problem number"),
     };
 }
