@@ -1,3 +1,6 @@
+// got a bit stuck for part 2 on this, so i got help from here:
+// https://www.reddit.com/r/adventofcode/comments/1pew3mh/comment/nsfhlfu/
+
 pub fn p5() {
     let input = include_str!("./input.txt").trim();
     let mut input = input.lines();
